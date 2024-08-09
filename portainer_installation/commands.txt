@@ -1,0 +1,17 @@
+mkdir portainer
+
+cd portainer
+
+docker volume create portainer_data
+
+docker run -d --name portainer_cont -p 9100:9000 -v portainer_data:/data portainer/portainer-ee:latest
+
+check with the IP Address:9100 in browser
+
+Give Password
+
+Dsp@93919349	
+
+Go to Gmail search portainer copy that license key and paste it into portainer browser
+
+Then Click submit
